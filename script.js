@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Send email using EmailJS
       emailjs
-        .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData)
+        .send("service_x48wykh", "template_606jll1", formData)
         .then(function (response) {
           // Success message
           showNotification(
